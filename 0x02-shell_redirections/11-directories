@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(find . -mindepth 1 -maxdepth 1 -type d -print0 | tr -dc '\0' | wc -c)
+echo find . -mindepth 1 -maxdepth 1 -type d -print0 | tr -dc '\0' | wc -c
